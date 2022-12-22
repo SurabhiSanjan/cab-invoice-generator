@@ -8,6 +8,8 @@ public class InvoiceGenerator {
     public static void main(String[] args )
     {
         System.out.println( "Welcome to Cab Invoice Generator" );
+        double TotalFare = totalFare(10, 4);
+        System.out.println(TotalFare);
     }
     public static double totalFare(double distance, int time) {
         double totalCostForDist = distance * COST_PER_KM;

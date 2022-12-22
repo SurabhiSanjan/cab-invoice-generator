@@ -8,7 +8,7 @@ public class InvoiceGeneratorTest {
         double distance=2.0;
         int time=5;
         double fare = invoiceGenerator.totalFare(distance, time );
-        Assert.assertEquals(28, fare, 0.0);
+        Assert.assertEquals(25, fare, 0.0);
     }
     @Test
     public void givenDistanceAndTime_shouldReturnMinFare(){
